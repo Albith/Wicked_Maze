@@ -1,4 +1,4 @@
-# Wicked_Maze
+# Wicked Maze
 
 This iPhone game was released in 2012 and is no longer available in the App Store. 
 
