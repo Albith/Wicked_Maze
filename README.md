@@ -16,9 +16,9 @@ Where there is example code from other sources, it is noted in each files' comme
 
 *Developed by:*
 
-   + Albith R. Delgado: *game design, programming, sprites, sound effects.*
+   * Albith R. Delgado: *game design, programming, sprites, sound effects.*
 
-   + José Ríos-Reboyas: *music & sound effects.*
+   * José Ríos-Reboyas: *music & sound effects.*
    
   *Note: some tile sprites have been taken from the Lucky Warp game.* 
   
