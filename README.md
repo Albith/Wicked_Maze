@@ -13,3 +13,13 @@ The game utilizes several existing libraries:
 * *SimpleAudioEngine, a simple 2-channel audio library for Cocos2D.*
 
 Where there is example code from other sources, it is noted in each files' comments.
+
+*Developed by:*
+
+   + Albith R. Delgado: *game design, programming, sprites, sound effects.*
+
+   + José Ríos-Reboyas: *music & sound effects.*
+   
+  *Note: some tile sprites have been taken from the Lucky Warp game.* 
+  
+  *This artwork was created by Pablo Pimentel.*
