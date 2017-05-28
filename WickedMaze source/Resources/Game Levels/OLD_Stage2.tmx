@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="newTilesBLUE" tilewidth="32" tileheight="32">
+  <image source="newTilesBLUE.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="newTilesBLACK" tilewidth="32" tileheight="32">
+  <image source="newTilesRED.png" width="160" height="128"/>
+ </tileset>
+ <layer name="stageTiles" width="40" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XsQ2AMBQD0QyRmoL9h4TfUgHxJZZiS7SnBwWE3lrrwKWaskU04/NpEc34xlvqd8duz0+9+Hya8XEt4lyz8iz0vDdFY0ffeV+HoEP4VLaa2qe01ZS+t7Yv96DyEbaawkfZaqM+0lYb8dG22l/fDFuN/H4o3jX5foyN8BH/lsqt/vedeaZ0PvspO1Q3Po8O1Y3Po0N14/PoUN34PDpUNz6PDtUlfarrAn6oCYVAHwAA
+  </data>
+ </layer>
+ <objectgroup name="Game Objects" width="40" height="50">
+  <object name="PlayerStart" x="160" y="96"/>
+  <object name="Goal" x="1152" y="1472"/>
+ </objectgroup>
+ <objectgroup name="Collisions" width="40" height="50">
+  <object x="0" y="0" width="32" height="1024"/>
+  <object x="32" y="0" width="672" height="32"/>
+  <object x="672" y="32" width="32" height="416"/>
+  <object x="32" y="224" width="384" height="32"/>
+  <object x="224" y="448" width="1056" height="32"/>
+  <object x="32" y="992" width="640" height="32"/>
+  <object x="672" y="992" width="32" height="608"/>
+  <object x="704" y="1568" width="544" height="32"/>
+  <object x="1248" y="480" width="32" height="1120"/>
+  <object x="704" y="480" width="32" height="64"/>
+  <object x="640" y="928" width="32" height="64"/>
+  <object x="416" y="832">
+   <polygon points="0,0 288,-288 320,-288 32,0"/>
+  </object>
+  <object x="640" y="928">
+   <polygon points="0,0 288,-288 320,-288 32,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="polyLinePlatforms" width="40" height="50">
+  <object name="platformSmall" x="1184" y="864">
+   <properties>
+    <property name="time" value="2"/>
+   </properties>
+   <polyline points="0,0 -288,0"/>
+  </object>
+  <object name="platformSmall" x="800" y="1088">
+   <properties>
+    <property name="time" value="1.5"/>
+   </properties>
+   <polyline points="0,0 320,0"/>
+  </object>
+  <object name="platformSmall" x="1184" y="1312">
+   <properties>
+    <property name="time" value="3"/>
+   </properties>
+   <polyline points="0,0 -384,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="polyLineEnemies" width="40" height="50">
+  <object name="star" x="96" y="928">
+   <properties>
+    <property name="Time" value="2.5"/>
+   </properties>
+   <polyline points="0,0 480,0"/>
+  </object>
+  <object name="star" x="864" y="544">
+   <properties>
+    <property name="time" value="2.5"/>
+   </properties>
+   <polyline points="0,0 -320,320"/>
+  </object>
+ </objectgroup>
+</map>

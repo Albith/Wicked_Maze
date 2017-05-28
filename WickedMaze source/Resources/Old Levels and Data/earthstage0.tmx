@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="19" height="59" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="groundTexturesForeground" tilewidth="32" tileheight="32">
+  <image source="groundTexturesForeground.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="groundTextureBackground" tilewidth="64" tileheight="64">
+  <image source="groundTextureBackground.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Background" width="19" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UQQ7AIAgE+Ub//9FeDUEWdqleatLUaDsOqJjNtYd8TrCYWDIvA++of8Lrq9z7uaoX69phoXVuee3yNOW1zndYaA3VaypfSoz+/qle02fV1wzfn3BjOJXxCiv6v8tTaljEypjrNx0v2/TZGDP3LkvNFzoTihfy7Xixd72yb4yXug9f7CM7X/VSWWi8yspcGS/1bqOx23c7y1uHhRy7XmZ7brUhVqeh2sCyJr2ivWRZ3mkixmgNxsu7qV4/6w5r6nxVxisspXYprBfXnXa+hBEAAA==
+  </data>
+ </layer>
+ <layer name="Tiles" width="19" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2X3Q6DIAxGy9yGmZuZ7u/939Q2u5C4gh3xAszX5NxIclIIbdET0SmDln7jrHyzRAdXUa4bc10wZrq0sOQKF1x7c0ldvZi3svZgnkxvdHmmYY7KmmMO9O3Rlrq17NGR3vNzXBKWM4OrfNeH0m+Cf1xhxHKs3TXQPFNjtV77nYALrhyXzEeZV5cEUj/WGbmWm3VuwwUXXNu47gn2sEft3zlE610T1RpwB4QRAAA=
+  </data>
+ </layer>
+ <objectgroup name="Game Objects" width="19" height="59" visible="0">
+  <object name="PlayerStart" x="128" y="128"/>
+  <object name="Wall" x="224" y="1344" width="224" height="32"/>
+  <object name="crab" type="0" x="192" y="704">
+   <properties>
+    <property name="moveX" value="0"/>
+    <property name="moveY" value="-320"/>
+    <property name="time" value="10"/>
+   </properties>
+  </object>
+  <object name="crab" type="1" x="448" y="128">
+   <properties>
+    <property name="moveX" value="0"/>
+    <property name="moveY" value="-220"/>
+    <property name="time" value="8"/>
+   </properties>
+  </object>
+  <object name="Key" x="544" y="944"/>
+  <object name="Goal" x="224" y="1760" width="224" height="32"/>
+  <object name="crab" type="0" x="480" y="864">
+   <properties>
+    <property name="moveX" value="0"/>
+    <property name="moveY" value="132"/>
+    <property name="time" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

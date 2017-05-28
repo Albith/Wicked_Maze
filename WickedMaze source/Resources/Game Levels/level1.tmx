@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="31" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTilesetWithSpikes" tilewidth="32" tileheight="32">
+  <image source="grayBrickTilesetWithSpikes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="arrowsTileset" tilewidth="32" tileheight="32">
+  <image source="arrowsTileset.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="30" name="mazeTilesetEARTH_small" tilewidth="32" tileheight="32">
+  <image source="mazeTilesetEARTH_small.png" width="128" height="192"/>
+ </tileset>
+ <layer name="Spikes" width="40" height="31">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJADAIADAHwf8/7gUVcRMSSMQN2QTgr4YBAADYechfAGM=
+  </data>
+ </layer>
+ <layer name="Bricks" width="40" height="31">
+  <data encoding="base64" compression="zlib">
+   eJztlsEKg0AMRPdLaikeFFpoQf//18zFyzaJTpqka+3AXGSTPMZddvtSSt+4rUJqLXN+me9CvgHrB/IIzrDyPckvsOZOfoA1Vr6JPBvqUG3xcTlZsrNqi4/LyTs7bV9qfFnZaftS48vIbpWUocSHZofeB9eqXspQ4ovOrivvjFyGEt8nd8pe1TO4DFvi474dhS/z3ZP5ttrTz3MmypdZlzUn6n9yc7x1Nr6Is+0lrdcR+Cz5tpJf63zeddG9Inr++b7XK+t8RLjWAqFmJcY=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="40" height="31">
+  <object x="0" y="0" width="1248" height="32"/>
+  <object x="0" y="32" width="32" height="480"/>
+  <object x="928" y="576" width="192" height="32"/>
+  <object x="480" y="672" width="224" height="32"/>
+  <object x="448" y="512" width="32" height="448"/>
+  <object x="32" y="480" width="448" height="32"/>
+  <object x="1120" y="576" width="32" height="384"/>
+  <object x="160" y="384" width="32" height="96"/>
+  <object x="928" y="736" width="32" height="64"/>
+  <object x="1248" y="0" width="32" height="512"/>
+  <object x="928" y="480" width="320" height="32"/>
+  <object x="448" y="960" width="704" height="32"/>
+  <object x="896" y="480" width="32" height="128"/>
+  <object x="480" y="512" width="160" height="32"/>
+  <object x="960" y="384" width="32" height="96"/>
+  <object x="768" y="512" width="128" height="32"/>
+  <object x="704" y="736" width="224" height="32"/>
+  <object x="1120" y="416" width="32" height="64"/>
+  <object x="672" y="704" width="32" height="128"/>
+  <object x="480" y="32" width="32" height="64"/>
+  <object x="544" y="320" width="384" height="32"/>
+  <object x="928" y="928" width="32" height="32"/>
+  <object x="160" y="384">
+   <polygon points="0,0 96,-192 128,-192 32,0"/>
+  </object>
+  <object x="480" y="96">
+   <polygon points="0,0 -32,32 0,32 32,0"/>
+  </object>
+  <object x="448" y="128">
+   <polygon points="0,0 -128,256 -96,256 32,0"/>
+  </object>
+  <object x="928" y="352">
+   <polygon points="0,0 32,32 64,32 0,-32"/>
+  </object>
+  <object x="1024" y="224">
+   <polygon points="0,0 32,0 128,192 96,192"/>
+  </object>
+  <object x="832" y="32" width="32" height="64"/>
+  <object x="832" y="96">
+   <polygon points="0,0 32,0 64,64 32,64"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="40" height="31">
+  <object name="Goal" x="544" y="768"/>
+  <object name="PlayerStart" x="96" y="416"/>
+  <object name="Key" x="1184" y="416"/>
+ </objectgroup>
+ <objectgroup name="Spike Collisions" width="40" height="31">
+  <object x="64" y="32" width="224" height="32"/>
+  <object x="576" y="288" width="320" height="32"/>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="40" height="31">
+  <object x="576" y="128"/>
+  <object x="960" y="96"/>
+  <object x="1152" y="224"/>
+  <object x="1152" y="96"/>
+  <object x="928" y="896"/>
+  <object x="928" y="832"/>
+ </objectgroup>
+ <objectgroup name="Collectibles" width="40" height="31">
+  <object x="128" y="160"/>
+  <object x="1184" y="320"/>
+  <object x="416" y="416"/>
+  <object x="736" y="608"/>
+  <object x="256" y="448"/>
+  <object x="416" y="96"/>
+  <object x="1088" y="416"/>
+  <object x="896" y="416"/>
+  <object x="1024" y="672"/>
+  <object x="1024" y="768"/>
+ </objectgroup>
+ <objectgroup name="Barriers" width="40" height="31">
+  <object name="brokenTile" x="672" y="896">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="dummyTile" x="672" y="960"/>
+  <object name="steelBarrierSmall" type="key" x="640" y="544">
+   <properties>
+    <property name="orientation" value="side"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="polyLinePlatforms" width="40" height="31" visible="0">
+  <object name="spikeStar" x="256" y="384">
+   <properties>
+    <property name="time" value="0.8"/>
+   </properties>
+   <polyline points="0,0 128,-256"/>
+  </object>
+ </objectgroup>
+</map>

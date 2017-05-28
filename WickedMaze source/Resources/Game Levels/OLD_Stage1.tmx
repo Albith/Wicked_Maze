@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="70" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="newTilesBLUE" tilewidth="32" tileheight="32">
+  <image source="newTilesBLUE.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="newTilesBLACK" tilewidth="32" tileheight="32">
+  <image source="newTilesRED.png" width="160" height="128"/>
+ </tileset>
+ <layer name="stageTiles" width="20" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3MMQ0AAAzDsIIof6wj0WtypLxuko5fxePxeDwej8fj8Xg8Ho/H4/F437zlB7DI2PDgFQAA
+  </data>
+ </layer>
+ <objectgroup name="Game Objects" width="20" height="70">
+  <object name="PlayerStart" x="128" y="96"/>
+  <object name="Goal" x="576" y="2176"/>
+ </objectgroup>
+ <objectgroup name="Collisions" width="20" height="70">
+  <object x="0" y="0" width="32" height="2240"/>
+  <object x="32" y="0" width="608" height="32"/>
+  <object x="608" y="32" width="32" height="2208"/>
+  <object x="32" y="2208" width="576" height="32"/>
+ </objectgroup>
+ <objectgroup name="Collectibles" width="20" height="70">
+  <object x="576" y="704"/>
+  <object x="576" y="768"/>
+  <object x="576" y="832"/>
+  <object x="576" y="896"/>
+  <object x="64" y="1792"/>
+  <object x="64" y="1856"/>
+  <object x="64" y="1920"/>
+  <object x="64" y="1984"/>
+  <object x="64" y="192"/>
+  <object x="64" y="256"/>
+  <object x="576" y="96"/>
+  <object x="576" y="160"/>
+  <object x="576" y="224"/>
+  <object x="576" y="288"/>
+  <object x="64" y="320"/>
+  <object x="576" y="1280"/>
+  <object x="576" y="1344"/>
+  <object x="576" y="1408"/>
+  <object x="576" y="1472"/>
+  <object x="128" y="2176"/>
+  <object x="192" y="2176"/>
+  <object x="256" y="2176"/>
+  <object x="320" y="2176"/>
+  <object x="64" y="960"/>
+  <object x="64" y="1024"/>
+  <object x="64" y="1088"/>
+  <object x="64" y="1152"/>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="20" height="70">
+  <object x="128" y="480"/>
+  <object x="128" y="544"/>
+  <object x="128" y="608"/>
+  <object x="128" y="672"/>
+  <object x="128" y="736"/>
+  <object x="256" y="1504"/>
+  <object x="256" y="1440"/>
+  <object x="256" y="1376"/>
+  <object x="256" y="1312"/>
+  <object x="448" y="1952"/>
+  <object x="448" y="2016"/>
+  <object x="448" y="2080"/>
+  <object x="448" y="1888"/>
+  <object x="448" y="128"/>
+  <object x="448" y="192"/>
+  <object x="448" y="256"/>
+  <object x="448" y="320"/>
+  <object x="448" y="704"/>
+  <object x="448" y="768"/>
+  <object x="448" y="832"/>
+  <object x="448" y="896"/>
+  <object x="544" y="1408"/>
+  <object x="544" y="1472"/>
+  <object x="544" y="1536"/>
+  <object x="544" y="1600"/>
+ </objectgroup>
+</map>

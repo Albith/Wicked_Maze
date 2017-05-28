@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<audacityproject projname="bassString2_data" version="1.1.0" audacityversion="1.2.5" sel0="0.0085393507" sel1="0.0085393507" vpos="0" h="0.0000000000" zoom="1756.5738341969" rate="22050.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="bassString2" channel="0" linked="1" offset="0.00000000" rate="22050.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="13896" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00039.au' len='13896' min='-0.346259' max='0.999234' rms='0.067244'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="bassString2" channel="1" linked="0" offset="0.00000000" rate="22050.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="13896" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00040.au' len='13896' min='-0.358372' max='0.999581' rms='0.072553'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="45" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTilesetWithSpikes" tilewidth="32" tileheight="32">
+  <image source="grayBrickTilesetWithSpikes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="arrowsTileset" tilewidth="32" tileheight="32">
+  <image source="arrowsTileset.png" width="128" height="160"/>
+ </tileset>
+ <layer name="Bricks" width="40" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2V0Q6FIAxD9cnr//+wr4Sw2I4O5oUmS9R0cGQDjuP7OgeGly/Cq8rNxtez7qzXM9eoGrW8Vj7zD6reZ/kitRJf/aw4p9C6e/giNZqv1//vfOo7dnb/lfk/gGfz2eNuPv6sHrE/riKU64m8W0zlc+/dVs8Teb9lXD8kH9WK+6P23cB46Pwevrf8u2Uk8pl39vtMvlaPZKmv5UH2R+ufEF8En1or8CF1Qsb01Bvhe/OgfMh3Jd9FxAw+T0TwefrNGlfdf0yeRyq+KGXn88z9Bb6ZsbWVRQ/jA4IvIBwAAA==
+  </data>
+ </layer>
+ <layer name="arrowTiles" width="40" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OOQqAQAAEwY29b2H9/z+dXBgjGYQu6LxLAYDvdapPTxiTmtMTxqb29AQAAAB+p1FtesIY1JieMBa1picAAHhxqDM9YVR1pScAPNzSxT7lIBwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="40" height="45">
+  <object x="288" y="32" width="384" height="32"/>
+  <object x="288" y="64" width="32" height="96"/>
+  <object x="992" y="128" width="32" height="160"/>
+  <object x="416" y="192" width="224" height="32"/>
+  <object x="832" y="288" width="224" height="32"/>
+  <object x="64" y="192" width="32" height="704"/>
+  <object x="1152" y="128" width="32" height="1184"/>
+  <object x="160" y="128" width="128" height="32"/>
+  <object x="672" y="192" width="192" height="32"/>
+  <object x="160" y="864" width="32" height="448"/>
+  <object x="832" y="224" width="32" height="64"/>
+  <object x="384" y="416" width="544" height="32"/>
+  <object x="672" y="896" width="256" height="32"/>
+  <object x="160" y="288" width="32" height="512"/>
+  <object x="288" y="992" width="160" height="32"/>
+  <object x="448" y="992" width="32" height="128"/>
+  <object x="864" y="1120" width="160" height="32"/>
+  <object x="256" y="288" width="32" height="832"/>
+  <object x="480" y="1088" width="416" height="32"/>
+  <object x="288" y="288" width="160" height="32"/>
+  <object x="512" y="864" width="32" height="32"/>
+  <object x="864" y="992" width="160" height="32"/>
+  <object x="1024" y="320" width="32" height="896"/>
+  <object x="1024" y="128" width="128" height="32"/>
+  <object x="384" y="576" width="32" height="352"/>
+  <object x="416" y="736" width="128" height="32"/>
+  <object x="416" y="896" width="192" height="32"/>
+  <object x="768" y="768" width="32" height="128"/>
+  <object x="768" y="736" width="128" height="32"/>
+  <object x="896" y="448" width="32" height="448"/>
+  <object x="768" y="576" width="128" height="32"/>
+  <object x="768" y="448" width="32" height="128"/>
+  <object x="416" y="576" width="128" height="32"/>
+  <object x="96" y="192" width="64" height="32"/>
+  <object x="160" y="160" width="32" height="64"/>
+  <object x="96" y="864" width="64" height="32"/>
+  <object x="640" y="64" width="32" height="160"/>
+  <object x="640" y="352" width="32" height="64"/>
+  <object x="928" y="640" width="96" height="32"/>
+  <object x="256" y="1120" width="64" height="32"/>
+  <object x="320" y="1120" width="32" height="64"/>
+  <object x="192" y="1280" width="960" height="32"/>
+  <object x="512" y="768" width="32" height="32"/>
+  <object x="832" y="992" width="32" height="96"/>
+  <object x="288" y="640" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="40" height="45">
+  <object name="PlayerStart" x="640" y="672"/>
+  <object name="Goal" x="1104" y="224"/>
+ </objectgroup>
+ <objectgroup name="Barriers" width="40" height="45">
+  <object name="brokenTile" x="608" y="928">
+   <properties>
+    <property name="orientation" value="side"/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="384" y="576">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="dummyTile" x="512" y="864">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="640" y="352">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="160" y="288">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="1024" y="1280">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="dummyTile" x="640" y="288">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="416" y="288">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="512" y="576">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="512" y="512">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="384" y="512">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="polyLinePlatforms" width="40" height="45">
+  <object name="spikeStar" x="224" y="192">
+   <properties>
+    <property name="time" value="1.4"/>
+   </properties>
+   <polyline points="0,0 0,448"/>
+  </object>
+  <object name="spikeStar" x="224" y="672">
+   <properties>
+    <property name="time" value="1.4"/>
+   </properties>
+   <polyline points="0,0 0,576"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Collectibles" width="40" height="45" visible="0">
+  <object x="1088" y="384"/>
+  <object x="864" y="1248"/>
+  <object x="576" y="1248"/>
+  <object x="1088" y="992"/>
+  <object x="1120" y="800"/>
+  <object x="640" y="512"/>
+  <object x="480" y="672"/>
+  <object x="832" y="672"/>
+  <object x="640" y="864"/>
+  <object x="320" y="512"/>
+  <object x="352" y="384"/>
+  <object x="1120" y="608"/>
+ </objectgroup>
+ <objectgroup name="Spike Collisions" width="40" height="45">
+  <object x="288" y="608" width="96" height="32"/>
+  <object x="480" y="1056" width="352" height="32"/>
+  <object x="864" y="448" width="32" height="128"/>
+  <object x="416" y="768" width="32" height="128"/>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="40" height="45">
+  <object x="480" y="1264"/>
+  <object x="672" y="1264"/>
+  <object x="768" y="1264"/>
+  <object x="928" y="1264"/>
+  <object x="1120" y="352"/>
+  <object x="1088" y="448"/>
+  <object x="1120" y="544"/>
+  <object x="1088" y="672"/>
+  <object x="1120" y="896"/>
+ </objectgroup>
+</map>

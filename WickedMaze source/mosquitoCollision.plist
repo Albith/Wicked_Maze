@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- created with http://www.physicseditor.de -->
+
+<plist version="1.0">
+	<dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>ptm_ratio</key>
+            <real>32</real>
+        </dict>
+        <key>bodies</key>
+		<dict>
+
+			<key>mosquito0</key>
+			<dict>
+				<key>anchorpoint</key>
+                <string>{ 0.0000,0.0000 }</string>
+				<key>fixtures</key>
+				<array>
+
+					<dict>
+                        <key>density</key> <real>2</real>
+                        <key>friction</key> <real>1</real>
+                        <key>restitution</key> <real>0</real>
+                        <key>filter_categoryBits</key> <integer>1</integer>
+                        <key>filter_groupIndex</key> <integer>0</integer>
+                        <key>filter_maskBits</key> <integer>65535</integer>
+                        <key>isSensor</key> <false/>
+                        <key>fixture_type</key> <string>POLYGON</string>
+
+						<key>polygons</key>
+						<array>
+							<array>	
+								<string>{ 18.676,9.929 }</string>	
+								<string>{ 29.078,5.910 }</string>	
+								<string>{ 37.116,6.383 }</string>	
+								<string>{ 47.281,26.478 }</string>	
+								<string>{ 43.546,31.962 }</string>	
+								<string>{ 32.388,34.752 }</string>	
+								<string>{ 16.076,26.478 }</string>	
+								<string>{ 13.948,18.913 }</string>
+							</array>
+							<array>	
+								<string>{ 44.681,10.165 }</string>	
+								<string>{ 49.173,19.858 }</string>	
+								<string>{ 47.281,26.478 }</string>	
+								<string>{ 37.116,6.383 }</string>
+							</array>
+							<array>	
+								<string>{ 20.095,32.199 }</string>	
+								<string>{ 16.076,26.478 }</string>	
+								<string>{ 32.388,34.752 }</string>
+							</array>
+						</array>
+                    </dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</plist>
+

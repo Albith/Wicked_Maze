@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTilesetWithSpikes" tilewidth="32" tileheight="32">
+  <image source="grayBrickTilesetWithSpikes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="arrowsTileset" tilewidth="32" tileheight="32">
+  <image source="arrowsTileset.png" width="128" height="160"/>
+ </tileset>
+ <layer name="Bricks" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NkYGBgHCBMbzBq76i9o/ZSz15q5Hdalxn47KUlGOr2DlT8jsR8NGovfewdCAwA7AEp22AJAAA=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="30" height="20">
+  <object x="0" y="0" width="32" height="320"/>
+  <object x="32" y="288" width="352" height="32"/>
+  <object x="32" y="0" width="896" height="32"/>
+  <object x="608" y="288" width="320" height="32"/>
+  <object x="384" y="288" width="32" height="160"/>
+  <object x="576" y="288" width="32" height="160"/>
+  <object x="0" y="416" width="384" height="32"/>
+  <object x="0" y="448" width="32" height="192"/>
+  <object x="32" y="608" width="896" height="32"/>
+  <object x="608" y="416" width="320" height="32"/>
+  <object x="928" y="416" width="32" height="224"/>
+  <object x="928" y="0" width="32" height="320"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="30" height="20">
+  <object name="Goal" x="864" y="96"/>
+  <object name="PlayerStart" x="96" y="544"/>
+ </objectgroup>
+ <objectgroup name="Collectibles" width="30" height="20" visible="0"/>
+ <objectgroup name="shooters" width="30" height="20">
+  <object x="32" y="192">
+   <properties>
+    <property name="direction" value="facingRight"/>
+    <property name="speed" value="1"/>
+    <property name="wait" value="1"/>
+   </properties>
+  </object>
+  <object x="928" y="544">
+   <properties>
+    <property name="direction" value="facingLeft"/>
+    <property name="speed" value="1"/>
+    <property name="wait" value="1"/>
+   </properties>
+  </object>
+  <object x="704" y="32">
+   <properties>
+    <property name="direction" value=""/>
+    <property name="speed" value="1"/>
+    <property name="wait" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="30" height="20">
+  <object x="448" y="128"/>
+  <object x="512" y="512"/>
+ </objectgroup>
+</map>

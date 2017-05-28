@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTilesetWithSpikes" tilewidth="32" tileheight="32">
+  <image source="grayBrickTilesetWithSpikes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="arrowsTileset" tilewidth="32" tileheight="32">
+  <image source="arrowsTileset.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="30" name="mazeTilesetEARTH_small" tilewidth="32" tileheight="32">
+  <image source="mazeTilesetEARTH_small.png" width="128" height="192"/>
+ </tileset>
+ <layer name="Spikes" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzyEOACAMA8AJDP//MJ5MIQZhd0l12wgyY8uvnQAAcGreHlCs21+AlyyrlgAz
+  </data>
+ </layer>
+ <layer name="Bricks" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNVtFqwzAM9Je0ZpSuYxtkkP7/ry16EBPanaTZydoDQ7Cis+STZV9aaxcyFMxux1vjqPj/53gnMaJvhNs2PpN8nwFeR28TLNv4Sng+Eh60n49AJd91G/ciF5p7llwFWb4VbRU3wPWIOj5toxNblm9VW4Gv6Yj7CJzMmi/knyzfqrbWB30fBZtjluvS8nyr2lofdJ+hODuYm71nWK6CNYlrRB89w1GfmsknQsUe8ZzJvNYFel/oGY7W3lMzxjtiZ9C6YO+LvdYcie0c+Njaq0K1bS3mRX3O9ouj8o3iqtSeh2qb8aI+Z/tF5Q3CtJo5x2ITPfxZRPuwuLm964LFh+YYh/T46LyLn+jhzyLiXNvvfKuxr86vCqRFtLbURA/41IfxKry23j/DaF0gLSwPyzmLI+IVeG2tf7RPgmv7Oa9XwjMK4ep//F/BNGbaKqJ98mtUe1UV2tN68p99uymYxkxbhdheic3ruae2ApQHQuVOHrkrs3fgzFtydii+Aav8NfE=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="60" height="20">
+  <object x="0" y="0" width="32" height="416"/>
+  <object x="160" y="416" width="64" height="64"/>
+  <object x="544" y="608" width="256" height="32"/>
+  <object x="128" y="608" width="160" height="32"/>
+  <object x="1216" y="320" width="64" height="64"/>
+  <object x="192" y="0" width="32" height="288"/>
+  <object x="896" y="416" width="32" height="128"/>
+  <object x="1888" y="0" width="32" height="576"/>
+  <object x="320" y="0" width="256" height="32"/>
+  <object x="896" y="256" width="64" height="128"/>
+  <object x="1120" y="224" width="512" height="32"/>
+  <object x="704" y="160" width="32" height="96"/>
+  <object x="960" y="256" width="320" height="64"/>
+  <object x="864" y="608" width="992" height="32"/>
+  <object x="736" y="96" width="32" height="96"/>
+  <object x="608" y="128" width="32" height="128"/>
+  <object x="800" y="0" width="1088" height="32"/>
+  <object x="768" y="128">
+   <polygon points="0,0 64,-64 32,-64 0,-32"/>
+  </object>
+  <object x="192" y="288">
+   <polygon points="0,0 32,32 32,0"/>
+  </object>
+  <object x="224" y="192">
+   <polygon points="0,0 64,-128 96,-128 0,64"/>
+  </object>
+  <object x="32" y="64">
+   <polygon points="0,0 32,-32 32,-64 0,-64"/>
+  </object>
+  <object x="32" y="416">
+   <polygon points="0,0 96,192 96,224 -32,0"/>
+  </object>
+  <object x="256" y="608">
+   <polygon points="0,0 160,-320 160,-256 32,0"/>
+  </object>
+  <object x="448" y="352" width="32" height="128"/>
+  <object x="416" y="288">
+   <polygon points="0,0 32,0 64,64 0,64"/>
+  </object>
+  <object x="1888" y="192">
+   <polygon points="0,0 -32,64 -32,128 0,192"/>
+  </object>
+  <object x="64" y="0" width="128" height="32"/>
+  <object x="288" y="0" width="32" height="64"/>
+  <object x="576" y="128">
+   <polygon points="0,0 32,64 32,0"/>
+  </object>
+  <object x="1088" y="256">
+   <polygon points="0,0 32,-32 32,0"/>
+  </object>
+  <object x="928" y="256">
+   <polygon points="0,0 32,-32 64,0"/>
+  </object>
+  <object x="800" y="32" width="32" height="32"/>
+  <object x="800" y="480">
+   <polygon points="0,0 64,-128 96,-128 32,0"/>
+  </object>
+  <object x="928" y="416">
+   <polygon points="0,0 32,-32 -32,-32 -64,0"/>
+  </object>
+  <object x="768" y="544">
+   <polygon points="0,0 32,-32 64,-32 32,0"/>
+  </object>
+  <object x="800" y="480" width="32" height="32"/>
+  <object x="864" y="320" width="32" height="32"/>
+  <object x="1664" y="160">
+   <polygon points="0,0 32,-32 64,0 -32,96 -32,64"/>
+  </object>
+  <object x="1600" y="256" width="32" height="64"/>
+  <object x="1664" y="288" width="32" height="128"/>
+  <object x="1632" y="288">
+   <polygon points="0,0 0,32 32,64 32,0"/>
+  </object>
+  <object x="1408" y="384" width="32" height="64"/>
+  <object x="1440" y="416" width="32" height="64"/>
+  <object x="1472" y="448" width="32" height="64"/>
+  <object x="1504" y="480" width="32" height="32"/>
+  <object x="480" y="448" width="32" height="64"/>
+  <object x="640" y="352">
+   <polygon points="0,0 32,64 64,0"/>
+  </object>
+  <object x="608" y="256">
+   <polygon points="0,0 128,0 96,32 32,64"/>
+  </object>
+  <object x="640" y="320">
+   <polygon points="0,0 0,32 64,32 64,-32"/>
+  </object>
+  <object x="544" y="576">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object x="512" y="512">
+   <polygon points="0,0 0,96 32,96 32,64"/>
+  </object>
+  <object x="768" y="576">
+   <polygon points="0,0 -32,32 32,32 32,0"/>
+  </object>
+  <object x="768" y="544" width="32" height="32"/>
+  <object x="928" y="544">
+   <polygon points="0,0 -32,32 -64,32 -32,0"/>
+  </object>
+  <object x="1632" y="448">
+   <polygon points="0,0 32,-32 64,-32 32,0"/>
+  </object>
+  <object x="1632" y="448">
+   <polygon points="0,0 32,0 64,32 64,64"/>
+  </object>
+  <object x="544" y="32">
+   <polygon points="0,0 32,64 64,32 32,0"/>
+  </object>
+  <object x="576" y="96">
+   <polygon points="0,0 0,32 32,32 32,-32"/>
+  </object>
+  <object x="1504" y="512">
+   <polygon points="0,0 0,32 64,32 32,0"/>
+  </object>
+  <object x="1504" y="544">
+   <polygon points="0,0 32,32 96,32 64,0"/>
+  </object>
+  <object x="1536" y="576">
+   <polygon points="0,0 -32,32 64,32 64,0"/>
+  </object>
+  <object x="1216" y="384">
+   <polygon points="0,0 32,32 64,32 64,0"/>
+  </object>
+  <object x="1248" y="448">
+   <polygon points="0,0 32,0 64,64 32,64"/>
+  </object>
+  <object x="1248" y="416" width="32" height="32"/>
+  <object x="864" y="576" width="32" height="32"/>
+  <object x="1856" y="544">
+   <polygon points="0,0 -32,32 -32,64 0,64"/>
+  </object>
+  <object x="1856" y="544" width="32" height="32"/>
+  <object x="1504" y="224">
+   <polygon points="0,0 32,-32 96,-32 128,0"/>
+  </object>
+  <object x="1600" y="192">
+   <polygon points="0,0 32,-32 64,-32 32,32"/>
+  </object>
+  <object x="1312" y="288">
+   <polygon points="0,0 0,-32 -32,-32 -32,32"/>
+  </object>
+  <object x="1312" y="256" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="60" height="20">
+  <object name="Goal" x="1120" y="480"/>
+  <object name="PlayerStart" x="96" y="96"/>
+ </objectgroup>
+ <objectgroup name="Spike Collisions" width="60" height="20" visible="0">
+  <object x="320" y="32" width="128" height="32"/>
+  <object x="1248" y="32" width="128" height="32"/>
+  <object x="224" y="416" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="60" height="20">
+  <object x="416" y="224"/>
+  <object x="416" y="128"/>
+  <object x="192" y="576"/>
+  <object type="barrier" x="1088" y="384"/>
+  <object type="barrier" x="1184" y="480"/>
+  <object type="barrier" x="992" y="480"/>
+ </objectgroup>
+ <objectgroup name="Collectibles" width="60" height="20" visible="0">
+  <object x="1824" y="256"/>
+  <object x="576" y="256"/>
+  <object x="672" y="480"/>
+  <object x="288" y="448"/>
+  <object x="1056" y="224"/>
+  <object x="896" y="128"/>
+  <object x="960" y="128"/>
+  <object x="1760" y="256"/>
+  <object x="672" y="576"/>
+ </objectgroup>
+ <objectgroup name="Barriers" width="60" height="20">
+  <object name="dummyTile" x="1408" y="384">
+   <properties>
+    <property name="orientation" value=""/>
+   </properties>
+  </object>
+  <object name="brokenTile" x="1408" y="320">
+   <properties>
+    <property name="orientation" value=""/>
+   </properties>
+  </object>
+  <object name="goalCage" type="group" x="1056" y="544"/>
+ </objectgroup>
+ <objectgroup name="polyLinePlatforms" width="60" height="20">
+  <object name="spikeStar" x="1344" y="384">
+   <properties>
+    <property name="time" value="0.6"/>
+   </properties>
+   <polyline points="0,0 64,160"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="shooters" width="60" height="20">
+  <object x="1888" y="96">
+   <properties>
+    <property name="direction" value="facingLeft"/>
+    <property name="speed" value="1.5"/>
+    <property name="wait" value="0.5"/>
+   </properties>
+  </object>
+  <object x="496" y="448">
+   <properties>
+    <property name="direction" value="upsideDown"/>
+    <property name="speed" value="1"/>
+    <property name="wait" value="1"/>
+   </properties>
+  </object>
+  <object x="752" y="192">
+   <properties>
+    <property name="direction" value=""/>
+    <property name="speed" value="1"/>
+    <property name="wait" value="0.7"/>
+   </properties>
+  </object>
+  <object x="896" y="592">
+   <properties>
+    <property name="direction" value="facingRight"/>
+    <property name="speed" value="1.5"/>
+    <property name="wait" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

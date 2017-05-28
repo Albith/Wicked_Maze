@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="35" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="woodenTile32" tilewidth="32" tileheight="32">
+  <image source="woodenTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3NwQkAMAwDMWf/pbtDAm0oMtzTqJJUs8m6fy6Xy+Vyudyf3Wm3x+Vyudzd7osOrc+K92gQAAA=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="30" height="35">
+  <object x="0" y="0" width="480" height="32"/>
+  <object x="448" y="32" width="32" height="640"/>
+  <object x="0" y="32" width="32" height="1056"/>
+  <object x="0" y="1088" width="928" height="32"/>
+  <object x="480" y="640" width="448" height="32"/>
+  <object x="928" y="640" width="32" height="480"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="30" height="35">
+  <object name="SpawnPoint" x="128" y="128"/>
+ </objectgroup>
+</map>

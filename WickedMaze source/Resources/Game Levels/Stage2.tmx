@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTileset" tilewidth="32" tileheight="32">
+  <image source="grayBrickTileset.png" width="96" height="64"/>
+ </tileset>
+ <layer name="stageTiles" width="45" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2ZywqAMAwEq6L//8n2UhARSWt2irADudnNXPq0lFwWoLJRZKrz7czk25nJtzOTb2cm3876/LXWlpx5p8c5cnbZax3Jjk8eim+V2JnBzgxRD2INixK9fxFrWBTVnVCJnRlmOrd53fOucR0zg5F53cbMcv7S185MXzszfe3M9FU7v+0do6idFWfCv71HqDLV+XZm8u3M5NuZyaf2wUwy/j/TbyMnC3PvIqQfAAA=
+  </data>
+ </layer>
+ <objectgroup name="Game Objects" width="45" height="45">
+  <object name="PlayerStart" x="96" y="1344"/>
+  <object name="Goal" x="1312" y="128"/>
+ </objectgroup>
+ <objectgroup name="Collisions" width="45" height="45">
+  <object x="0" y="640" width="352" height="32"/>
+  <object x="320" y="416" width="352" height="32"/>
+  <object x="960" y="768" width="32" height="288"/>
+  <object x="768" y="1056" width="32" height="352"/>
+  <object x="0" y="672" width="32" height="736"/>
+  <object x="800" y="1056" width="192" height="32"/>
+  <object x="320" y="448" width="32" height="192"/>
+  <object x="0" y="1408" width="800" height="32"/>
+  <object x="640" y="0" width="32" height="416"/>
+  <object x="992" y="768" width="416" height="32"/>
+  <object x="672" y="0" width="768" height="32"/>
+  <object x="1408" y="32" width="32" height="768"/>
+ </objectgroup>
+</map>

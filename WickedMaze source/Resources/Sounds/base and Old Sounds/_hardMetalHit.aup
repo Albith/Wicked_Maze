@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="_hardMetalHit_data" version="1.1.0" audacityversion="1.2.5" sel0="0.0033182641" sel1="0.0033182641" vpos="0" h="0.0000000000" zoom="3917.7110180412" rate="11025.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="_hardMetalHit" channel="2" linked="0" offset="0.00000000" rate="11025.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="3104" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00019.au' len='3104' min='-0.667314' max='0.615262' rms='0.030552'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="woodenTile32" tilewidth="32" tileheight="32">
+  <image source="woodenTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="60" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2YwQqEMAxE6///tKeFZZG4kzSTtJ0HHgKd1AfWVq8xxuW8vvH2qLg8PPl2R75Y1qo7Il8sa9UdkS+WteqOyBfLWnVH5Itlrbojlb4VZ+Fq3yjyfR8vX99cWr9YnoF8saxVo3kGUV9kLUXX3gyY83Y4f8k3d65qVvVl7tmRe+zQS745rP48n7b/nni+smo0z0C+WNaq0TyDU31nvNejvRh7S9W+UIV890a+eyPfvZHv3sjXl8/8rzCTGb4ZY//txzhz/86ZMTaz34m+jGej+lvwww3caocy4C4AAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="60" height="50">
+  <object x="0" y="0" width="480" height="32"/>
+  <object x="448" y="32" width="32" height="640"/>
+  <object x="0" y="32" width="32" height="1568"/>
+  <object x="32" y="1088" width="448" height="32"/>
+  <object x="448" y="896" width="160" height="32"/>
+  <object x="448" y="928" width="32" height="192"/>
+  <object x="480" y="640" width="96" height="32"/>
+  <object x="576" y="0" width="32" height="672"/>
+  <object x="608" y="0" width="1312" height="32"/>
+  <object x="1888" y="32" width="32" height="768"/>
+  <object x="960" y="384" width="576" height="32"/>
+  <object x="1504" y="416" width="32" height="128"/>
+  <object x="992" y="512" width="512" height="32"/>
+  <object x="960" y="416" width="32" height="256"/>
+  <object x="832" y="640" width="128" height="32"/>
+  <object x="832" y="672" width="32" height="256"/>
+  <object x="864" y="896" width="128" height="32"/>
+  <object x="576" y="928" width="32" height="192"/>
+  <object x="608" y="1088" width="928" height="32"/>
+  <object x="960" y="928" width="32" height="160"/>
+  <object x="1440" y="768" width="32" height="128"/>
+  <object x="1472" y="768" width="416" height="32"/>
+  <object x="1472" y="864" width="448" height="32"/>
+  <object x="32" y="1568" width="480" height="32"/>
+  <object x="480" y="1440" width="384" height="32"/>
+  <object x="480" y="1472" width="32" height="96"/>
+  <object x="832" y="1472" width="32" height="96"/>
+  <object x="832" y="1568" width="640" height="32"/>
+  <object x="1472" y="1472" width="32" height="128"/>
+  <object x="1504" y="1472" width="384" height="32"/>
+  <object x="1888" y="896" width="32" height="608"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="60" height="50">
+  <object name="PlayerStart" x="128" y="128"/>
+ </objectgroup>
+</map>

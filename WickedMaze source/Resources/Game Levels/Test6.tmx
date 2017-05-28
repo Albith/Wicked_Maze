@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="14" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grayBrickTileset" tilewidth="32" tileheight="32">
+  <image source="grayBrickTileset.png" width="96" height="64"/>
+ </tileset>
+ <layer name="stageTiles" width="18" height="14">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGFyAkUjMBMTMBMwhBrACMRsVzCGkbtScUXPwAWLSMzGYUHoGAIPPLRzwAwAA
+  </data>
+ </layer>
+ <objectgroup name="Game Objects" width="18" height="14">
+  <object name="PlayerStart" x="96" y="384"/>
+  <object name="Goal" x="416" y="352"/>
+ </objectgroup>
+ <objectgroup name="Collisions" width="18" height="14">
+  <object x="320" y="64" width="32" height="352"/>
+  <object x="0" y="64" width="32" height="352"/>
+  <object x="32" y="64" width="288" height="32"/>
+  <object x="0" y="416" width="352" height="32"/>
+ </objectgroup>
+ <objectgroup name="staticEnemies" width="18" height="14">
+  <object name="Bullet" x="288" y="384"/>
+ </objectgroup>
+</map>

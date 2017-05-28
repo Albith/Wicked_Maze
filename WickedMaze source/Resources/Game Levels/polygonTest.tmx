@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="newTilesRED" tilewidth="32" tileheight="32">
+  <image source="newTilesRED.png" width="160" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjgPoAACOi7XdYAgAA
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="10" height="15">
+  <object x="32" y="480">
+   <polygon points="0,0 32,-64 64,0"/>
+  </object>
+  <object x="256" y="224" width="32" height="192"/>
+  <object x="32" y="224" width="32" height="192"/>
+  <object x="160" y="416">
+   <polygon points="0,0 32,64 -32,64"/>
+  </object>
+  <object x="64" y="32">
+   <polyline points="0,0 32,0 64,32 96,32"/>
+  </object>
+ </objectgroup>
+</map>

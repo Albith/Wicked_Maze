@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="40" height="30">
+  <object x="288" y="192" width="352" height="32"/>
+  <object name="Big 1" type="trapezoid" x="224" y="416">
+   <properties>
+    <property name="vertexNumber" value="4"/>
+   </properties>
+   <polygon points="0,0 288,128 320,-32 128,-96"/>
+  </object>
+  <object x="896" y="160">
+   <polygon points="0,0 128,0 128,96 0,96"/>
+  </object>
+  <object x="832" y="608">
+   <polygon points="0,0 32,-96 96,-96 128,0"/>
+  </object>
+  <object name="Middle 2" type="trapezoid" x="128" y="800">
+   <properties>
+    <property name="vertexNumber" value="4"/>
+   </properties>
+   <polygon points="0,0 64,-96 224,-32 224,96"/>
+  </object>
+  <object x="832" y="736">
+   <polygon points="0,0 -96,-64 -224,-32 -224,96 -64,96"/>
+  </object>
+ </objectgroup>
+</map>
